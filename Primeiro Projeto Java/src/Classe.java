@@ -12,8 +12,23 @@ public static void main (String [] args) { /*MÉTODO*/
     ano = 2024; /*Alterando variável */
     final String BR = "Brasil"; /*Variável não deve ser alterada */
 
-    
+    /*DECLARANDO VARIÁVEIS E MÉTODOS | ESTRUTURAS */
 
+    String meuNome = "Pedro";
+    int idade = 2;
+    double altura = 23.4; // double = float
+    boolean verdadeira = true;
+
+    String primeiroNome = "João";
+    String segundoNome = "Azevedo";
+
+    String nomeCompleto = nomeCompleto(primeiroNome, segundoNome);
+
+    System.out.println(nomeCompleto);
+}
+
+public static String nomeCompleto (String primeiroNome,String segundoNome) {
+    return " --> " + primeiroNome.concat(" ").concat(segundoNome);
 }
 
 }
