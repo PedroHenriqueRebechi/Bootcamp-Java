@@ -1,3 +1,5 @@
+package edu.pedrohenriquerebechi.anatomiaclasses;
+
 public class Classe { /*CLASSE*/
 
 public static void main (String [] args) { /*MÉTODO*/
@@ -27,7 +29,7 @@ public static void main (String [] args) { /*MÉTODO*/
     System.out.println(nomeCompleto);
 }
 
-public static String nomeCompleto (String primeiroNome,String segundoNome) {
+public static String nomeCompleto (String primeiroNome, String segundoNome) { // MÉTODO
     return " --> " + primeiroNome.concat(" ").concat(segundoNome);
 }
 
