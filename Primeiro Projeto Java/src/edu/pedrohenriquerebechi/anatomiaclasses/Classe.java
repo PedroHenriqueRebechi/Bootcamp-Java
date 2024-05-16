@@ -27,6 +27,9 @@ public static void main (String [] args) { /*MÉTODO*/
     String nomeCompleto = nomeCompleto(primeiroNome, segundoNome);
 
     System.out.println(nomeCompleto);
+
+    // JAVA BEANS - LEGIBILIDADE
+
 }
 
 public static String nomeCompleto (String primeiroNome, String segundoNome) { // MÉTODO
