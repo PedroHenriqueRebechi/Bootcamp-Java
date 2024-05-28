@@ -66,6 +66,25 @@ public class Operadores {
 
         System.out.println(nomeUm.equals(nomeDois));
 
+        // LÓGICOS
+        // && Operador "E/AND"
+
+        boolean condicao1 = true;
+        boolean condicao2 = false;
+
+        if (condicao1 && condicao2) {
+            System.out.println("As duas condições são verdadeiras");
+        }
+        else {
+            System.out.println("Alguma das condições é falsa");
+        }
+
+        // || Operador "OU/OR"
+
+        if (condicao1 || condicao2) {
+            System.out.println("Uma das condições é verdadeira");
+        }
+
 
 
 
